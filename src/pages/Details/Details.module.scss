@@ -1,0 +1,33 @@
+.main {
+  max-width: 1500px;
+  padding: 10px;
+  margin: auto !important;
+
+  .list {
+    max-height: calc(100dvh - 100px);
+    overflow: auto;
+    padding: 0 5px;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+  }
+
+  .details {
+    h1 {
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+  }
+}

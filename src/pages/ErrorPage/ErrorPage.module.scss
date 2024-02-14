@@ -1,0 +1,15 @@
+@import "../../utils/scss/variables.scss";
+
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100dvw;
+  height: 100dvh;
+  background: $mainColor;
+
+  * {
+    color: #fff;
+  }
+}

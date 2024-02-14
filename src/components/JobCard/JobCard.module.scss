@@ -1,0 +1,35 @@
+@import "../../utils/scss/variables.scss";
+
+.card {
+  &.clickable {
+    cursor: pointer;
+    margin: auto;
+  }
+  &.active {
+    > div {
+     border: 1px solid #000;
+    }
+
+  }
+}
+
+.title {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.details {
+  text-decoration: none;
+  color: $mainColor;
+  display: inline-block;
+  border: 1px solid $mainColor;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $mainColor;
+    color: white;
+  }
+
+}

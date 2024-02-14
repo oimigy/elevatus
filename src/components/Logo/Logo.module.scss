@@ -1,0 +1,17 @@
+@import "../../utils/scss/variables.scss";
+
+.logo {
+  background: $mainColor;
+
+  @media (max-width: 600px) {
+    display: block;
+    padding: 16px 0;
+  }
+
+  img {
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 150px;
+  }
+}

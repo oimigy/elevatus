@@ -1,0 +1,21 @@
+.main {
+  margin-top: 10px;
+  padding: 5px;
+
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .result {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
